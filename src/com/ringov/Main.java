@@ -1,6 +1,7 @@
 package com.ringov;
 
 import com.ringov.sortings.InsertionSort;
+import com.ringov.sortings.MergeSort;
 
 import java.util.Arrays;
 
@@ -11,7 +12,7 @@ public class Main {
 
         System.out.println(Arrays.toString(arr));
 
-        InsertionSort.sort(arr);
+        MergeSort.sort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
